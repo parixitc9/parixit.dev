@@ -227,6 +227,10 @@ html[data-theme="dark"] .svc.s-ink p,html[data-theme="dark"] .svc.s-ink .for{col
 .ptags{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.8rem}
 .ptags b{font-family:'JetBrains Mono',monospace;font-weight:400;font-size:.68rem;color:var(--ink-soft);
   border:1px solid var(--line);padding:.2rem .6rem;border-radius:100px}
+.ptag-link{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:.68rem;color:var(--lime-deep);
+  border:1px solid var(--lime-deep);padding:.2rem .6rem;border-radius:100px;text-decoration:none;
+  transition:background .3s,color .3s}
+.ptag-link:hover{background:var(--lime-deep);color:var(--paper)}
 @media(max-width:640px){.pcard{grid-template-columns:40px 1fr}}
 
 /* ============ PROCESS ============ */
